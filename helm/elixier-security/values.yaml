@@ -60,7 +60,6 @@ securityContext:
   # runAsUser: 1000
   runAsUser: 5000
   runAsGroup: 5000
-  fsGroup: 5000
 
 service:
   type: ClusterIP
