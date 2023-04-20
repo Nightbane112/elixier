@@ -51,13 +51,16 @@ podSecurityContext:
   runAsGroup: 5000
   fsGroup: 5000
 
-securityContext: {}
+securityContext: 
   # capabilities:
   #   drop:
   #   - ALL
   # readOnlyRootFilesystem: true
   # runAsNonRoot: true
   # runAsUser: 1000
+  runAsUser: 5000
+  runAsGroup: 5000
+  fsGroup: 5000
 
 service:
   type: ClusterIP
