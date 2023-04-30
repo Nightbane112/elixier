@@ -47,9 +47,9 @@ serviceAccount:
 podAnnotations: {}
 
 podSecurityContext:
-  runAsUser: mapr
-  runAsGroup: mapr
-  fsGroup: mapr
+  runAsUser: 1000
+  runAsGroup: 1000
+  fsGroup: 1000
 
 securityContext: 
   # capabilities:
